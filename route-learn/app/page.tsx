@@ -8,6 +8,10 @@ export default function Home() {
       <Link href="/yayufans" className="">
         <span className="btn">YaYuFans</span>
       </Link>
+      <div className="h-4"></div>
+      <Link href="/error" className="">
+        <span className="btn">去错误页面</span>
+      </Link>
     </main>
   );
 }
