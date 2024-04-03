@@ -15,6 +15,15 @@ export default function Home() {
       <Link href="/history" className="">
         <span className="btn">去history页面</span>
       </Link>
+      <Link href="/info" className="">
+        <span className="btn">去 info 页面</span>
+      </Link>
+      <Link href="/setting" className="">
+        <span className="btn">去 setting 页面</span>
+      </Link>
+      <Link href="/weizhi" className="">
+        <span className="btn">去未知页面</span>
+      </Link>
     </main>
   );
 }
