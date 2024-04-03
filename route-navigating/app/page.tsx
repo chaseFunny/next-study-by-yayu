@@ -12,6 +12,9 @@ export default function Home() {
       <Link href="/error" className="">
         <span className="btn">去错误页面</span>
       </Link>
+      <Link href="/history" className="">
+        <span className="btn">去history页面</span>
+      </Link>
     </main>
   );
 }
